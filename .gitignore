@@ -1,1 +1,39 @@
+# Rider
+.idea/
+*.sln.iml
 
+# Конфигурации IDE
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Папки с кэшем
+.vscode/
+bin/
+obj/
+out/
+
+# Конфигурации отладки
+*.csproj.user
+*.pidb
+*.booproj
+*.svd
+
+# Rider и IntelliJ IDEA logs
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/modules.xml
+.idea/.idea_modules/
+.idea/misc.xml
+.idea/sqlDataSources.xml
+.idea/dataSources/
+.idea/dataSources.local/
+.idea/sqlDialects.xml
+.idea/assetWizardSettings.xml
+.idea/inspectionProfiles/
+
+# Файлы конфигураций для Rider
+.idea/solution/.idea/
