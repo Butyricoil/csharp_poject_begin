@@ -20,13 +20,13 @@ class Program
             }
         }
 
-        for (int i = 0; i < array.GetLength(0); i++)
+        foreach (int i in array)
         {
-            for (int j = 0; j < array.GetLength(1); j++)
+            foreach (int j in array)
             {
-                Console.Write(array[i, j] + " ");
+
             }
-            Console.WriteLine();
         }
+
     }
 }
