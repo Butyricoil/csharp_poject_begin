@@ -12,3 +12,4 @@ C:\Users\butyr\RiderProjects\cshapr_project_begin\obj\Debug\net8.0\refint\cshapr
 C:\Users\butyr\RiderProjects\cshapr_project_begin\obj\Debug\net8.0\cshapr_project_begin.pdb
 C:\Users\butyr\RiderProjects\cshapr_project_begin\obj\Debug\net8.0\cshapr_project_begin.genruntimeconfig.cache
 C:\Users\butyr\RiderProjects\cshapr_project_begin\obj\Debug\net8.0\ref\cshapr_project_begin.dll
+C:\Users\butyr\RiderProjects\cshapr_project_begin\obj\Debug\net8.0\cshapr_project_begin.sourcelink.json
