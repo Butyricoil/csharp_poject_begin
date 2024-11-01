@@ -4,9 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        Console.WriteLine("This is a C# console application.");
-        Console.WriteLine("Press any key to exit...");
-        Console.ReadKey();
+        int[] array = { 0, 1, 2, 3, 4, 5 };
+        for (int i = 0; i < array.Length; i++)
+        {
+            Console.Write(array[i] + " ");
+        }
     }
 }
