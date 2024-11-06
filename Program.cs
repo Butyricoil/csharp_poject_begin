@@ -1,32 +1,32 @@
-﻿
-class Program
+﻿using System;
+
+public class Program
 {
-    static void Main(string[] args)
+    public bool IsPalindrome(int x)
     {
-        int[,] array = new int[5, 5];
-        for (int i = 0; i < array.GetLength(0); i++)
+        int last = 0;
+        int palindrom = 0;
+
+        while (x > 0)
         {
-            for (int j = 0; j < array.GetLength(1); j++)
-            {
-                array[i, j] = 0;
-            }
+            last = x % 10;
+            palindrom = palindrom * 10 + last;
+            x = x / 10;
         }
 
-        for (int i = 0; i < array.GetLength(0); i++)
+        if (palindrom == x)
         {
-            for (int j = 0; j < array.GetLength(1); j++)
-            {
-                array[i, i] = 1;
-            }
+            return true;
         }
-
-        foreach (int i in array)
+        else
         {
-            foreach (int j in array)
-            {
-
-            }
+            return false;
         }
+    }
 
+    public static void Main(string[] args)
+    {
+        Program solution = new Program();
+        Console.WriteLine(solution.IsPalindrome(121));
     }
 }
